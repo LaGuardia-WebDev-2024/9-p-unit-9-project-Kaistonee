@@ -13,20 +13,25 @@ draw = function(){
   fill(255, 255, 255);
   
   if (answer == 1) {
-    text("YOUR", 176, 200);
-    text("MESSAGE", 159, 229); 
-  }
-  
-  if (answer == 2) {
-   fill(255, 209, 220);
+  fill(0, 0, 0);
   ellipse(200, 200, 375, 375);
   fill(60, 0, 255);
   triangle(200, 104, 280, 280, 120, 280);
-  fill(255, 255, 255);
-   text("FIND", 176, 200);
-    text("LOVE", 159, 229);
+  fill(0, 0, 0)
+  text("YOUR", 176, 200);
+  text("MESSAGE", 159, 229); 
   }
-};
+  
+if (answer == 2) {
+fill (255,192,203)
+ +
+}
+ 
+if (answer == 3) {
+  fill (173, 216, 230) 
+
+}
+
 
 mouseClicked = function(){
   answer = round(random(1, 5));
