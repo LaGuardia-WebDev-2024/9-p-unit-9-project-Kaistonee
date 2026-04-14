@@ -25,12 +25,46 @@ draw = function(){
     if (answer == 2) {
   fill(255,192,203);
   ellipse(200, 200, 375, 375);
+  fill(255, 0, 0);
+  triangle(200, 104, 280, 280, 120, 280);
+  fill(0, 0, 0);
+  text("YES ", 176, 200);
+  text(" BRO ", 159, 229); 
+  }
+ 
+ if (answer == 3) {
+  fill(108, 59, 170);
+  ellipse(200, 200, 375, 375);
+  fill(255, 191, 0);
+  triangle(200, 104, 280, 280, 120, 280);
+  fill(0, 0, 0);
+  text ("THANKS A", 176, 200);
+  text ("LOT RACHEL", 159, 229);
+  }
+ 
+ if (answer == 4) {
+  fill(255,192,203);
+  ellipse(200, 200, 375, 375);
+  fill(255, 0, 0);
+  triangle(200, 104, 280, 280, 120, 280);
+  fill(0, 0, 0);
+  text("ITS Not FONnY ", 159, 200);
+  text(" IVE GOt SkOOL ", 159, 229); 
+  }
+
+   if (answer == 5) {
+  fill(0, 0, 0);
+  ellipse(200, 200, 375, 375);
   fill(60, 0, 255);
   triangle(200, 104, 280, 280, 120, 280);
   fill(0, 0, 0)
-  text("85858585", 176, 200);
-  text("MESSAGE", 159, 229); 
+  text("Life has no", 176, 200);
+  text("inherent meaning", 159, 229); 
   }
+
+
+
+
 
   };
 
