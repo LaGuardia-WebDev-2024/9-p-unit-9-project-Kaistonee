@@ -50,7 +50,7 @@ draw = function(){
   fill(0, 0, 0);
   text("ITS Not FONnY ", 159, 200);
   text(" IVE GOt SkOOL ", 159, 229); 
-  }
+  }//meme
 
    if (answer == 5) {
   fill(0, 0, 0);
@@ -60,9 +60,13 @@ draw = function(){
   fill(0, 0, 0)
   text("Life has no", 176, 200);
   text("inherent meaning", 159, 229); 
-  }
+  }//wow
 
-
+if (mousePressed) {
+  noStroke();
+  fill(random(0, 400), random(0, 255), 100);
+  ellipse(mouseX, mouseY, random(20, 90), random(20, 90))//new random
+}
 
 
 
